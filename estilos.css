@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0a2540, #003087);
+    color: #e0f7fa;
+    padding: 40px;
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border: 1px solid #00d4ff;
+}
+
+h1 {
+    color: #00d4ff;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #00d4ff;
+    background: rgba(255,255,255,0.1);
+    color: white;
+}
+
+button {
+    background: #00d4ff;
+    color: #0a2540;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00b7d4;
+}
+
+#listaCitas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+cita-component {
+    background: rgba(0,212,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #00d4ff;
+    text-align: left;
+}
