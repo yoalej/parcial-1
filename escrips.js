@@ -34,7 +34,7 @@ document.getElementById('btnAgendar').addEventListener('click', () => {
 
     // Validación
     if (!form.checkValidity() || nombre === '' || fecha === '' || doctor === '') {
-        alert('Por favor, completa todos los campos correctamente. Nombre solo letras, fecha futura, doctor seleccionado.');
+        alert('Por favor, completa todos los campos correctamente. Nombre con solo letras, fecha futura, doctor seleccionado.');
         return;
     }
 
