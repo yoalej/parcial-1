@@ -1,9 +1,8 @@
 # Registrador de Citas Médicas
 
-**Estudiante:** [Tu Nombre]  
-**Asignatura:** Desarrollo Frontend con librerías del lado del cliente  
-**Semana:** 1  
-**Fecha:** [Fecha actual]
+**Estudiantes:**   Gerson Azael Chica Lovos y Alejandro Ernesto Chica Martinez
+**Asignatura:** Programacion computacional IV
+**Fecha:** 27/02/2026
 
 ## Descripción
 App para registrar citas médicas en clínicas, resolviendo sobrecarga y errores manuales. Usa WebComponents para mostrar citas, eventos JS para agendar, manipulación DOM sin recargar y validación de entradas.
@@ -26,5 +25,3 @@ Validamos con HTML5 (required, pattern, min) para campos obligatorios y formato 
 
 ### ¿Cómo manejaría la escalabilidad futura en su página?
 Usaría WebComponents para modularizar más partes (ej: form como component). Agregar storage local (localStorage) para persistir citas. Para usuarios múltiples, integrar backend (API con Node.js). Responsive design con media queries. Pruebas con Jest para JS.
-
-¡Listo para presentar en GitHub Pages!
